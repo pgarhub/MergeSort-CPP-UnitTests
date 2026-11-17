@@ -8,6 +8,7 @@ using namespace std;
  * @tparam T Typ elementow w tablicy.
  * @param arr Wektor do wypisania.
  */
+
 template <typename T>
 void wyswietlTablice(const vector<T>& arr) {
     for (const auto& element : arr) {
